@@ -108,9 +108,12 @@ Students must provide the following to demonstrate successful completion of the 
 5. **Verification**:
    - Provide evidence (e.g., a screenshot of `curl` or browser) that the `app` service is accessible on the specified port.
 
-6. **BONUS (15pts)**:
+6. **BONUS (10pts)**:
     - Attempt to find a way to get admin access to the app. Beware of dinosaurs.
-    - 15pts bonus for completion.
+    - 10pts bonus for completion.
     - Partial points rewarded if you can identify how to do it even if you can't actually get access
 
+7. **BONUS (5pts)**:
+    - Implement a healthcheck in your Dockerfile and/or docker-compose.yml
+    - **HINT**: There's javascript file in the project that already implements a healthcheck, you mainly need to configure Docker and your deployment to actually make use of it.
 ---
