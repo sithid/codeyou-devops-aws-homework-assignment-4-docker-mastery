@@ -3,7 +3,7 @@ RUN apk update && apk add --no-cache bash
 
 ENV NODE_ENV=production
 
-EXPOSE 6637:6637
+EXPOSE 6673:6673
 
 RUN addgroup -S spacex && adduser -S -G spacex spacex
 RUN mkdir -p /app && chown -R spacex:spacex /app
